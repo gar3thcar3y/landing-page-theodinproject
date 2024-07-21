@@ -1,0 +1,102 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(27, 27, 43);
+    padding: 15px;
+    margin: 0;
+}
+
+.logo {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.main1 {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: rgb(27, 27, 43);
+    gap: 20px;
+}
+
+#img1 {
+    width: 50%;
+    height: auto;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.info-box {
+    width: 100px;
+    height: 100px;
+    border: solid 2px blue;
+    border-radius: 15px;
+}
+
+.info-text {
+    width: 100px;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    gap: 10%;
+}
+
+.info-section-title {
+    text-align: center;
+    margin: 30px;
+}
+
+.greypart {
+    background-color: lightgrey;
+    padding: 40px;
+    padding-bottom: 30px;
+}
+
+.greypart-main {
+    text-align: center;
+}
+
+.greypart-quotename {
+    text-align: end;
+}
+
+.action-div {
+    background-color: rgb(71, 71, 255);
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+button {
+    background-color: rgb(71, 71, 255);
+    border: solid 2px white;
+    border-radius: 5px;
+    color: white;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
